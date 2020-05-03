@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/fontawesome.js"></script>
+    <title>Quizzly</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="question-counter">
+            <h3>Question <span class="current-question">1</span> of <span class="total-question">3</span></h3>
+        </div>
+        <div class="questions">
+            How did you hear about StartNG?
+        </div>
+        <div class="options">
+            <div id="0" class="option1">Facebook</div>
+            <div id="1" class="option2">Twitter</div>
+            <div id="2" class="option3">Friend Referral</div>
+            <div id="3" class="option4">TikTok</div>
+            <div id="4" class="option5">Netflix</div>
+        </div>
+        <div class="button">
+            <button class="btn">Next <i class="fad fa-caret-right"></i></button>
+        </div>
+        <div class="progress">
+
+        </div>
+    </div>      
+
+    <!-- Modal -->
+    <div id="mainModal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <p>Please select an option... 🙄</p>
+      </div>
+    </div>
+
+    <!-- Quiz Final Detail Box -->
+    <div class="result">
+        <div class="result-content">
+            <h3>Awesome! <br> You correctly answered <span class="correct-answers">3</span> out of <span class="total-question">5</span></h3>
+            <button class="retry">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
